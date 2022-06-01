@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
