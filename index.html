@@ -10,16 +10,33 @@
   <body>
     <h1>Tic-Tac-Toe</h1>
 
-    <div class="container">
-      <div id="0" class="box"></div>
-      <div id="1" class="box"></div>
-      <div id="2" class="box"></div>
-      <div id="3" class="box"></div>
-      <div id="4" class="box"></div>
-      <div id="5" class="box"></div>
-      <div id="6" class="box"></div>
-      <div id="7" class="box"></div>
-      <div id="8" class="box"></div>
+    <div class="full-container">
+      <div id="player1">
+        <p><span id="p1-name">Player One</span> - x</p>
+        <p>Score: <span id="p1-score">0</span></p>
+        <p id="p1-turn" class="invisible">Your turn!</p>
+      </div>
+      <div class="gameboard">
+        <div class="container">
+          <div id="0" class="box"></div>
+          <div id="1" class="box"></div>
+          <div id="2" class="box"></div>
+          <div id="3" class="box"></div>
+          <div id="4" class="box"></div>
+          <div id="5" class="box"></div>
+          <div id="6" class="box"></div>
+          <div id="7" class="box"></div>
+          <div id="8" class="box"></div>
+        </div>
+
+        <button id="new-game">New game</button>
+      </div>
+
+      <div id="player2">
+        <p><span id="p2-name">Player Two</span> - o</p>
+        <p>Score: <span id="p2-score">0</span></p>
+        <p id="p2-turn" class="invisible">Your turn!</p>
+      </div>
     </div>
 
     <script src="app.js"></script>
